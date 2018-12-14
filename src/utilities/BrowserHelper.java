@@ -28,7 +28,7 @@ public class BrowserHelper {
 		default:
 			throw new RuntimeException("browser name not matched");
 		}
-		driver.get("http://www."+url);
+		driver.get("http://"+url);
 	}
 	
 	public static void closeBrowser() {
